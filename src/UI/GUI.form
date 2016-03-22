@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1090" height="745"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1300" height="700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="34713" binding="mainPanel1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <autoscrolls value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="67df4" binding="canvasScrollPane">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-15201349"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="80cfe" binding="canvasPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties>
+                  <background color="-15201349"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="2161a">
+                    <constraints border-constraint="West"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </scrollpane>
+                  <component id="be62" class="javax.swing.JPopupMenu" binding="popupMenu" custom-create="true">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <alignmentX value="0.5"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
